@@ -1,4 +1,4 @@
-  Approach of solving the games with Genetic Algorithms has 3 main classes. 
+In this repository, approach of solving the games with Genetic Algorithms has 3 main classes. 
 
   * Brain
   * Agent
