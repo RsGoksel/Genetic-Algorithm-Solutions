@@ -1,3 +1,4 @@
+
 In this repository, approach of solving the games with Genetic Algorithms has 3 main classes. 
 
   * Brain
@@ -40,6 +41,12 @@ Every agent on the screen has own unique neural network. On another speech, duri
 In every generation or round, best agents (considering their own fitness value) are chosen from all died agents and apply crossover. 
 
 ![sn3](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/3086e107-0d84-4e4e-a286-5b4867d32740)
+
+2 external library required for games
+```bash
+    pip install numpy
+    pip install pygame
+```
 
 
 
