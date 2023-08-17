@@ -27,4 +27,22 @@ And the backbone of genetic algorithms. Crossover mechanism has to be set and wr
 
 When round is over, died agents are fetched and choosen by their own fitness values. The bests are chosen and being crossover. Every weights of 2 parents are chosen by probability coefficient and produces new child which may close to better fitness function
 
-  
+________________________________________________________________________________________________
+
+## Depiction of the approach
+
+![Sn1 (1)](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/dbcf6463-9a61-4353-906c-9f3d06c3013b)
+
+Every agent on the screen has own unique neural network. On another speech, during the initialization step of population creation, each agent is assigned unique weights.
+
+![sn2](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/43b64dad-6954-445f-b06c-ed4ba7b3f9c8)
+
+In every generation or round, best agents (considering their own fitness value) are chosen from all died agents and apply crossover. 
+
+![sn3](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/3086e107-0d84-4e4e-a286-5b4867d32740)
+
+
+
+
+
+
