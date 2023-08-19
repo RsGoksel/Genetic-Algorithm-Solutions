@@ -1,2 +1,2 @@
-# Genetic-Algorithms-Solutions
-A Guide to Problems and Solutions on Genetic Algorithms
+# Genetic-Algorithms
+A Guide to Problems and Solutions by Genetic Algorithms
