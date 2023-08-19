@@ -42,11 +42,16 @@ In every generation or round, best agents (considering their own fitness value) 
 
 ![sn3](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/3086e107-0d84-4e4e-a286-5b4867d32740)
 
-2 external library required for games
+ 2 external library required for the games. Numpy and Pygame
 ```bash
     pip install numpy
     pip install pygame
 ```
+or
+```bash
+    pip install -r requirements.txt
+```
+
 
 
 
