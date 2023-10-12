@@ -1,8 +1,8 @@
 
 In this repository, approach of solving the games with Genetic Algorithms has 3 main classes. 
 
-  * Brain
-  * Agent
+  * Brain (Neural Network)
+  * Agent 
   * Environment
 
 ## Environment
