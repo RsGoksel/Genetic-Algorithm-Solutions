@@ -1,35 +1,39 @@
 
-In this repository, approach of solving the games with Genetic Algorithms has 3 main classes. 
+In this work, the approach of solving the games with Genetic Algorithms has 3 main classes. 
 
   * Brain (Neural Network)
   * Agent 
   * Environment
 
 ## Environment
-    Environment is the class of game screen which controlls all variable and gives visible output. It has 4 methods. 
+    Environment class has game Settings. Involves Initial variables, Methods, and configurations.
     
 ![Env](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/d56c01f5-df97-4136-815e-ac4a884155c5)
 
 
 ## Brain and Agent
- Every ANN and agent variables may change considering the differents problems but they have kinda similar approachs.
-    weights, layers, activation functions for brain
-    iterating or moving mechanism, fitness function and decision. Final layer has to be number of decisions. For example if you're moving 4 dimension to move,
-    than use 4 layer at final layer.
+    
+   Brain class has Weights, Layers, Activation Functions. Consider it Neural Network. 
+   Gathered informations attachs to first layer of brain and eventually a prediction is obtained.
 
-- ! The depth of an artificial neural network (ANN) is significant and may depend on the complexity of your problem.
+   Agent class has on the other hand has Brain class initially, also has variables which depends on the game, like movement settings, skill and limitations etc.  
+    
+- ! The depth of an artificial neural network (ANN) is important and may depend on the complexity of your problem. Choose a depth suitable for your problem.
+  
 ![Brain-Agent](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/1390930e-e344-4f51-a232-e4d1c2fcc988)
-
-
 
 ## Crossover
 
-And the backbone of genetic algorithms. Crossover mechanism has to be set and written according to the solution of the problem. Like Uniform Crossover, One-Point Crossover, Two-Point Crossover etc. 
+Crossover mechanism depends on the problem. There are Uniform Crossover, One-Point Crossover, Two-Point Crossover etc.
+Generally in these game solutions uniform crossover has been used. 
+
+*Uniform crossover involves selecting only one genome simultaneously from two different members.
+
 ![Crossover](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/cd154469-0566-4f05-87a4-deb9f59601ad)
 
 
 
-When round is over, died agents are fetched and choosen by their own fitness values. The bests are chosen and being crossover. Every weights of 2 parents are chosen by probability coefficient and produces new child which may close to better fitness function
+When round is over, Died agents are fetched and chosen based on their own fitness values. Good ones (considering fitness function) are chosen and applied crossover. Pairs of weights from two parents are selected based on a probability coefficient and used to produce a new child agent, which may exhibit an improved fitness function.
 
 ________________________________________________________________________________________________
 
