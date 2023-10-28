@@ -8,7 +8,8 @@ In this repository, approach of solving the games with Genetic Algorithms has 3 
 ## Environment
     Environment is the class of game screen which controlls all variable and gives visible output. It has 4 methods. 
     
-![image](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/bb33d07d-73a1-48e6-bd5e-09b1ce385411)
+![Env](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/d56c01f5-df97-4136-815e-ac4a884155c5)
+
 
 ## Brain and Agent
  Every ANN and agent variables may change considering the differents problems but they have kinda similar approachs.
@@ -17,14 +18,16 @@ In this repository, approach of solving the games with Genetic Algorithms has 3 
     than use 4 layer at final layer.
 
 - ! The depth of an artificial neural network (ANN) is significant and may depend on the complexity of your problem.
+![Brain-Agent](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/1390930e-e344-4f51-a232-e4d1c2fcc988)
 
-![image](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/03365794-600e-425f-8207-5bf52f0dc703)
+
 
 ## Crossover
 
 And the backbone of genetic algorithms. Crossover mechanism has to be set and written according to the solution of the problem. Like Uniform Crossover, One-Point Crossover, Two-Point Crossover etc. 
+![Crossover](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/cd154469-0566-4f05-87a4-deb9f59601ad)
 
-![image](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/2c908828-c028-4cf0-9b77-da1c51d4886c)
+
 
 When round is over, died agents are fetched and choosen by their own fitness values. The bests are chosen and being crossover. Every weights of 2 parents are chosen by probability coefficient and produces new child which may close to better fitness function
 
