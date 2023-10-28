@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/140575ea-004d-40ad-83d4-a4f658048b71" width="500px"/>
 </p>
