@@ -1,5 +1,6 @@
+GAME SOLUTIONS with GENETIC ALGORITHMS
 
-In this work, the approach of solving the games with Genetic Algorithms has 3 main classes. 
+In this work, the approach to solving games with Genetic Algorithms consists of three main classes.
 
   * Brain (Neural Network)
   * Agent 
