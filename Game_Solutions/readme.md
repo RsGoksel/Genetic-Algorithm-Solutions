@@ -1,4 +1,3 @@
-GAME SOLUTIONS with GENETIC ALGORITHMS
 
 In this work, the approach to solving games with Genetic Algorithms consists of three main classes.
 
@@ -7,7 +6,7 @@ In this work, the approach to solving games with Genetic Algorithms consists of 
   * Environment
 
 ## Environment
-    Environment class has game Settings. Involves Initial variables, Methods, and configurations.
+* __Environment class has game Settings. Involves Initial variables, Methods, and configurations.__
     
 ![Env](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/d56c01f5-df97-4136-815e-ac4a884155c5)
 
@@ -33,24 +32,33 @@ Generally in these game solutions uniform crossover has been used.
 ![Crossover](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/cd154469-0566-4f05-87a4-deb9f59601ad)
 
 
-
 When round is over, Died agents are fetched and chosen based on their own fitness values. Good ones (considering fitness function) are chosen and applied crossover. Pairs of weights from two parents are selected based on a probability coefficient and used to produce a new child agent, which may exhibit an improved fitness function.
 
 ________________________________________________________________________________________________
 
 ## Depiction of the approach
 
-![Sn1 (1)](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/dbcf6463-9a61-4353-906c-9f3d06c3013b)
 
 Every agent on the screen has own unique neural network. On another speech, during the initialization step of population creation, each agent is assigned unique weights.
+In every generation or round, Best agents (considering their own fitness value) are chosen from all died agents and applied crossover. 
 
-![sn2](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/43b64dad-6954-445f-b06c-ed4ba7b3f9c8)
+<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/8bd79c28-238c-4109-98cf-ba573bd5059a" width="300" alt="Population">
 
-In every generation or round, best agents (considering their own fitness value) are chosen from all died agents and apply crossover. 
+The first step in the process is the creation of a population of agents. Each agent in this initial population is given a distinct set of neural network weights, resulting in a diverse starting point.
 
-![sn3](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/3086e107-0d84-4e4e-a286-5b4867d32740)
+<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/f780173d-19b7-4be3-ac8e-102925dae6a8" width="600" alt="Population">
 
- 2 external library required for the games. Numpy and Pygame. You can install them as
+
+In every generation or round, Best agents (considering their own fitness value) are chosen from all died agents and applied crossover. 
+Crossover process involves combining the neural network weights of two or more agents to create new agents (concept of genetic recombination)
+
+<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/b3fe30f6-9889-4b7e-8e87-5447b5080a3c" width="600" alt="Population">
+
+___________________________________________________________________________________________________________
+
+
+2 external library required. Numpy and Pygame. You can install them with these
+
 ```bash
     pip install numpy
     pip install pygame
