@@ -46,7 +46,7 @@ In every generation or round, Best agents (considering their own fitness value) 
 
 The first step in the process is the creation of a population of agents. Each agent in this initial population is given a distinct set of neural network weights, resulting in a diverse starting point.
 
-<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/f780173d-19b7-4be3-ac8e-102925dae6a8" width="600" alt="Population">
+<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/blob/main/Game_Solutions/FlappyBird_Genetic/assets/Flap.png" width="600" alt="Population">
 
 
 In every generation or round, Best agents (considering their own fitness value) are chosen from all died agents and applied crossover. 
