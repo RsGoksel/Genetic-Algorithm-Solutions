@@ -8,6 +8,8 @@ In this work, the approach to solving games with Genetic Algorithms consists of 
   * Agent 
   * Environment
 
+    ![gif](https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/8c45d988-f181-4b77-bdee-664117e08cf9)
+
 ## Environment
 * __Environment class has game Settings. Involves Initial variables, Methods, and configurations.__
     
