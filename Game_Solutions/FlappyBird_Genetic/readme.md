@@ -10,11 +10,6 @@ In this work, the approach to solving games with Genetic Algorithms consists of 
 
     ![gif](https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/8c45d988-f181-4b77-bdee-664117e08cf9)
 
-## Environment
-* __Environment class has game Settings. Involves Initial variables, Methods, and configurations.__
-    
-![Env](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/d56c01f5-df97-4136-815e-ac4a884155c5)
-
 
 ## Brain and Agent
     
@@ -25,7 +20,7 @@ In this work, the approach to solving games with Genetic Algorithms consists of 
     
 - ! The depth of an artificial neural network (ANN) is important and may depend on the complexity of your problem. Choose a depth suitable for your problem.
   
-![Brain-Agent](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/1390930e-e344-4f51-a232-e4d1c2fcc988)
+![Brain-Agent](https://github.com/RsGoksel/Genetic-Algorithm-Solutions/blob/main/Game_Solutions/FlappyBird_Genetic/assets/Brain.png)
 
 ## Crossover
 
