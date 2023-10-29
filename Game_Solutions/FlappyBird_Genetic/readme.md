@@ -52,7 +52,7 @@ The first step in the process is the creation of a population of agents. Each ag
 In every generation or round, Best agents (considering their own fitness value) are chosen from all died agents and applied crossover. 
 Crossover process involves combining the neural network weights of two or more agents to create new agents (concept of genetic recombination)
 
-<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/b3fe30f6-9889-4b7e-8e87-5447b5080a3c" width="600" alt="Population">
+<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/blob/main/Game_Solutions/FlappyBird_Genetic/assets/Neuro.png" width="600" alt="Population">
 
 ___________________________________________________________________________________________________________
 
