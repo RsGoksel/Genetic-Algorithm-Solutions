@@ -11,8 +11,7 @@ In this work, the approach to solving games with Genetic Algorithms consists of 
 ## Environment
 * __Environment class has game Settings. Involves Initial variables, Methods, and configurations.__
     
-![Env](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/d56c01f5-df97-4136-815e-ac4a884155c5)
-
+<img src="https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/d56c01f5-df97-4136-815e-ac4a884155c5" width="500px"/>
 
 ## Brain and Agent
     
@@ -23,7 +22,7 @@ In this work, the approach to solving games with Genetic Algorithms consists of 
     
 - ! The depth of an artificial neural network (ANN) is important and may depend on the complexity of your problem. Choose a depth suitable for your problem.
   
-![Brain-Agent](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/1390930e-e344-4f51-a232-e4d1c2fcc988)
+<img src="https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/1390930e-e344-4f51-a232-e4d1c2fcc988" width="500px"/>
 
 ## Crossover
 
@@ -32,8 +31,7 @@ Generally in these game solutions uniform crossover has been used.
 
 *Uniform crossover involves selecting only one genome simultaneously from two different members.
 
-![Crossover](https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/cd154469-0566-4f05-87a4-deb9f59601ad)
-
+<img src="https://github.com/RsGoksel/Genetic-Algorithms-Solutions/assets/80707238/cd154469-0566-4f05-87a4-deb9f59601ad" width="600px"/>
 
 When round is over, Died agents are fetched and chosen based on their own fitness values. Good ones (considering fitness function) are chosen and applied crossover. Pairs of weights from two parents are selected based on a probability coefficient and used to produce a new child agent, which may exhibit an improved fitness function.
 
@@ -49,13 +47,14 @@ In every generation or round, Best agents (considering their own fitness value) 
 
 The first step in the process is the creation of a population of agents. Each agent in this initial population is given a distinct set of neural network weights, resulting in a diverse starting point.
 
-<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/f780173d-19b7-4be3-ac8e-102925dae6a8" width="600" alt="Population">
+<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/f780173d-19b7-4be3-ac8e-102925dae6a8" width="400" alt="Population">
 
 
 In every generation or round, Best agents (considering their own fitness value) are chosen from all died agents and applied crossover. 
 Crossover process involves combining the neural network weights of two or more agents to create new agents (concept of genetic recombination)
 
-<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/b3fe30f6-9889-4b7e-8e87-5447b5080a3c" width="600" alt="Population">
+<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/b3fe30f6-9889-4b7e-8e87-5447b5080a3c" width="350" alt="Population">
+
 
 ___________________________________________________________________________________________________________
 
