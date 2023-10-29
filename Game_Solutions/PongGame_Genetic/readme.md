@@ -45,17 +45,24 @@ ________________________________________________________________________________
 Every agent on the screen has own unique neural network. On another speech, during the initialization step of population creation, each agent is assigned unique weights.
 In every generation or round, Best agents (considering their own fitness value) are chosen from all died agents and applied crossover. 
 
+<p align="center">
 <img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/8bd79c28-238c-4109-98cf-ba573bd5059a" width="300" alt="Population">
+</p>
 
 The first step in the process is the creation of a population of agents. Each agent in this initial population is given a distinct set of neural network weights, resulting in a diverse starting point.
 
-<img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/f780173d-19b7-4be3-ac8e-102925dae6a8" width="600" alt="Population">
+<p align="center">
+  <img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/blob/main/Game_Solutions/PongGame_Genetic/ipynb_file%20%26%20original_game/ANN.png" width="500px"/>
+</p>
 
 
 In every generation or round, Best agents (considering their own fitness value) are chosen from all died agents and applied crossover. 
 Crossover process involves combining the neural network weights of two or more agents to create new agents (concept of genetic recombination)
 
+<p align="center">
 <img src="https://github.com/RsGoksel/Genetic-Algorithm-Solutions/assets/80707238/b3fe30f6-9889-4b7e-8e87-5447b5080a3c" width="600" alt="Population">
+</p>
+
 
 ___________________________________________________________________________________________________________
 
