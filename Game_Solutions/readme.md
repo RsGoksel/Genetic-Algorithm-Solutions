@@ -15,10 +15,10 @@ In this work, the approach to solving games with Genetic Algorithms consists of 
 
 ## Brain and Agent
     
-   Brain class has Weights, Layers, Activation Functions. Consider it Neural Network. 
-   Gathered informations attachs to first layer of brain and eventually a prediction is obtained.
+   The Brain class encompasses three essential components: Weights, Layers, and Activation Functions (Consider it Neural Network).
+   Gathered information attached to first layer of brain and eventually a prediction is obtained.
 
-   Agent class has on the other hand has Brain class initially, also has variables which depends on the game, like movement settings, skill and limitations etc.  
+   Agent class has on the other hand has Brain class initially and variables (which depends on the game, like movement settings, skill and limitations etc.)  
     
 - ! The depth of an artificial neural network (ANN) is important and may depend on the complexity of your problem. Choose a depth suitable for your problem.
   
